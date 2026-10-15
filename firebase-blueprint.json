@@ -1,0 +1,150 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "Beauty and cosmetic product with SKU, pricing, stock levels, and threshold.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string", "maxLength": 200 },
+        "nameBn": { "type": "string", "maxLength": 200 },
+        "sku": { "type": "string", "maxLength": 50, "pattern": "^[a-zA-Z0-9_-]+$" },
+        "category": { "type": "string", "maxLength": 100 },
+        "purchasePrice": { "type": "number" },
+        "sellingPrice": { "type": "number" },
+        "stockQuantity": { "type": "number" },
+        "lowStockThreshold": { "type": "number" },
+        "image": { "type": "string", "maxLength": 1000 },
+        "description": { "type": "string", "maxLength": 2000 },
+        "isArchived": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["name", "sku", "category", "purchasePrice", "sellingPrice", "stockQuantity"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Customer purchase order containing beauty items, totals, payment, and delivery status.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "orderNumber": { "type": "string", "maxLength": 50 },
+        "customerId": { "type": "string", "maxLength": 128 },
+        "customerName": { "type": "string", "maxLength": 150 },
+        "customerPhone": { "type": "string", "maxLength": 30 },
+        "customerAddress": { "type": "string", "maxLength": 500 },
+        "subtotal": { "type": "number" },
+        "discount": { "type": "number" },
+        "deliveryCharge": { "type": "number" },
+        "totalAmount": { "type": "number" },
+        "paymentStatus": { "type": "string", "enum": ["unpaid", "paid", "partially_paid"] },
+        "paymentMethod": { "type": "string", "enum": ["COD", "bKash", "Nagad", "Rocket", "Bank"] },
+        "orderStatus": { "type": "string", "enum": ["pending", "confirmed", "processing", "shipped", "delivered", "cancelled"] },
+        "stockDeducted": { "type": "boolean" },
+        "notes": { "type": "string", "maxLength": 1000 },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["customerName", "customerPhone", "totalAmount", "orderStatus", "paymentStatus"]
+    },
+    "Customer": {
+      "title": "Customer",
+      "description": "Registered or walk-in client profile with contact and order history.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string", "maxLength": 150 },
+        "phone": { "type": "string", "maxLength": 30 },
+        "email": { "type": "string", "maxLength": 150 },
+        "address": { "type": "string", "maxLength": 500 },
+        "city": { "type": "string", "maxLength": 100 },
+        "totalOrders": { "type": "number" },
+        "totalSpent": { "type": "number" },
+        "notes": { "type": "string", "maxLength": 1000 },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["name", "phone"]
+    },
+    "Supplier": {
+      "title": "Supplier",
+      "description": "Vendor or wholesaler providing beauty inventory.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string", "maxLength": 150 },
+        "company": { "type": "string", "maxLength": 200 },
+        "phone": { "type": "string", "maxLength": 30 },
+        "email": { "type": "string", "maxLength": 150 },
+        "address": { "type": "string", "maxLength": 500 },
+        "totalPurchases": { "type": "number" },
+        "status": { "type": "string", "enum": ["active", "inactive"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["name", "company", "phone"]
+    },
+    "CustomerReturn": {
+      "title": "CustomerReturn",
+      "description": "Customer merchandise return request with condition check and restocking status.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "returnNumber": { "type": "string", "maxLength": 50 },
+        "orderId": { "type": "string", "maxLength": 128 },
+        "orderNumber": { "type": "string", "maxLength": 50 },
+        "customerName": { "type": "string", "maxLength": 150 },
+        "customerPhone": { "type": "string", "maxLength": 30 },
+        "totalRefundAmount": { "type": "number" },
+        "reason": { "type": "string", "maxLength": 1000 },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected", "refunded"] },
+        "isRestocked": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["orderId", "returnNumber", "customerName", "status", "totalRefundAmount"]
+    },
+    "Task": {
+      "title": "Task",
+      "description": "Personal or store operational task item with priority and due date.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string", "maxLength": 300 },
+        "description": { "type": "string", "maxLength": 2000 },
+        "category": { "type": "string", "enum": ["business", "personal", "inventory", "customer"] },
+        "priority": { "type": "string", "enum": ["low", "medium", "high"] },
+        "dueDate": { "type": "string", "maxLength": 50 },
+        "isCompleted": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "completedAt": { "type": "string" }
+      },
+      "required": ["title", "category", "priority", "isCompleted"]
+    }
+  },
+  "firestore": {
+    "/products/{productId}": {
+      "schema": "Product",
+      "description": "Collection of beauty cosmetics, hair care, and skincare items."
+    },
+    "/orders/{orderId}": {
+      "schema": "Order",
+      "description": "Collection of retail customer orders."
+    },
+    "/customers/{customerId}": {
+      "schema": "Customer",
+      "description": "Collection of store customers and purchase records."
+    },
+    "/suppliers/{supplierId}": {
+      "schema": "Supplier",
+      "description": "Collection of cosmetic vendors and suppliers."
+    },
+    "/returns/{returnId}": {
+      "schema": "CustomerReturn",
+      "description": "Collection of customer product return and exchange requests."
+    },
+    "/users/{userId}/tasks/{taskId}": {
+      "schema": "Task",
+      "description": "Private subcollection of personal tasks for the authenticated store manager."
+    }
+  }
+}

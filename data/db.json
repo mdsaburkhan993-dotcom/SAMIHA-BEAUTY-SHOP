@@ -1,0 +1,675 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Matte Velvet Liquid Lipstick (Ruby Red)",
+      "nameBn": "ম্যাট ভেলভেট লিকুইড লিপস্টিক (রুবি রেড)",
+      "sku": "SB-LIP-01",
+      "category": "Makeup",
+      "purchasePrice": 350,
+      "sellingPrice": 750,
+      "stockQuantity": 42,
+      "lowStockThreshold": 10,
+      "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=500&q=80",
+      "description": "Long-lasting, smudge-proof matte lipstick infused with Vitamin E.",
+      "isArchived": false,
+      "createdAt": "2026-09-01T10:00:00.000Z",
+      "updatedAt": "2026-10-10T12:00:00.000Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Niacinamide 10% Glow Serum",
+      "nameBn": "নায়াসিনামাইড ১০% গ্লো সিরাম",
+      "sku": "SB-SER-02",
+      "category": "Skincare",
+      "purchasePrice": 650,
+      "sellingPrice": 1250,
+      "stockQuantity": 18,
+      "lowStockThreshold": 12,
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=500&q=80",
+      "description": "Brightens skin tone, reduces pore size, and clears hyperpigmentation.",
+      "isArchived": false,
+      "createdAt": "2026-09-05T10:00:00.000Z",
+      "updatedAt": "2026-10-11T14:30:00.000Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Waterproof Precision Gel Eyeliner",
+      "nameBn": "ওয়াটারপ্রুফ জেল আইলাইনার (ডিপ ব্ল্যাক)",
+      "sku": "SB-EYE-03",
+      "category": "Makeup",
+      "purchasePrice": 180,
+      "sellingPrice": 450,
+      "stockQuantity": 6,
+      "lowStockThreshold": 15,
+      "image": "https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?auto=format&fit=crop&w=500&q=80",
+      "description": "Ultra black waterproof smudge-resistant 24h gel formula.",
+      "isArchived": false,
+      "createdAt": "2026-09-10T10:00:00.000Z",
+      "updatedAt": "2026-10-12T09:15:00.000Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Hyaluronic Acid Deep Hydrating Moisturizer",
+      "nameBn": "হায়ালুরনিক এসিড ডিপ হাইড্রেটিং ময়েশ্চারাইজার",
+      "sku": "SB-CRM-04",
+      "category": "Skincare",
+      "purchasePrice": 520,
+      "sellingPrice": 1050,
+      "stockQuantity": 28,
+      "lowStockThreshold": 8,
+      "image": "https://images.unsplash.com/photo-1608248597359-5613521d9669?auto=format&fit=crop&w=500&q=80",
+      "description": "Non-greasy lightweight moisture lock for tropical humid climate.",
+      "isArchived": false,
+      "createdAt": "2026-09-12T10:00:00.000Z",
+      "updatedAt": "2026-10-13T11:00:00.000Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "Pure Moroccan Argan Hair Treatment Oil",
+      "nameBn": "পিউর মরোক্কান আরগান হেয়ার অয়েল",
+      "sku": "SB-HAIR-05",
+      "category": "Haircare",
+      "purchasePrice": 850,
+      "sellingPrice": 1650,
+      "stockQuantity": 4,
+      "lowStockThreshold": 10,
+      "image": "https://images.unsplash.com/photo-1608248597359-5613521d9669?auto=format&fit=crop&w=500&q=80",
+      "description": "Repairs split ends and adds natural shine to dry and colored hair.",
+      "isArchived": false,
+      "createdAt": "2026-09-15T10:00:00.000Z",
+      "updatedAt": "2026-10-14T16:40:00.000Z"
+    },
+    {
+      "id": "prod-6",
+      "name": "Rosewater & Witch Hazel Facial Mist",
+      "nameBn": "গোলাপ জল ও উইচ হেজেল ফেসিয়াল মিস্ট",
+      "sku": "SB-TON-06",
+      "category": "Skincare",
+      "purchasePrice": 220,
+      "sellingPrice": 520,
+      "stockQuantity": 35,
+      "lowStockThreshold": 10,
+      "image": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=500&q=80",
+      "description": "Natural soothing toner spray that balances skin pH and refreshes makeup.",
+      "isArchived": false,
+      "createdAt": "2026-09-18T10:00:00.000Z",
+      "updatedAt": "2026-10-14T10:00:00.000Z"
+    },
+    {
+      "name": "Test Test-Deduction Serum",
+      "sku": "TST-1792084367978",
+      "category": "Skincare",
+      "purchasePrice": 200,
+      "sellingPrice": 500,
+      "stockQuantity": 20,
+      "lowStockThreshold": 5,
+      "id": "prod-1792084367978",
+      "isArchived": true,
+      "createdAt": "2026-10-15T17:12:47.978Z",
+      "updatedAt": "2026-10-15T17:12:47.980Z"
+    },
+    {
+      "name": "Test Limited Stock Item",
+      "sku": "TST-LIM-1792084367980",
+      "category": "Makeup",
+      "purchasePrice": 100,
+      "sellingPrice": 300,
+      "stockQuantity": 2,
+      "lowStockThreshold": 1,
+      "id": "prod-1792084367980",
+      "isArchived": true,
+      "createdAt": "2026-10-15T17:12:47.980Z",
+      "updatedAt": "2026-10-15T17:12:47.980Z"
+    },
+    {
+      "name": "Test Restock Product",
+      "sku": "TST-RET-1792084367981",
+      "category": "Skincare",
+      "purchasePrice": 400,
+      "sellingPrice": 800,
+      "stockQuantity": 10,
+      "lowStockThreshold": 2,
+      "id": "prod-1792084367981",
+      "isArchived": true,
+      "createdAt": "2026-10-15T17:12:47.981Z",
+      "updatedAt": "2026-10-15T17:12:47.982Z"
+    },
+    {
+      "name": "Test Test-Deduction Serum",
+      "sku": "TST-1792085229065",
+      "category": "Skincare",
+      "purchasePrice": 200,
+      "sellingPrice": 500,
+      "stockQuantity": 20,
+      "lowStockThreshold": 5,
+      "id": "prod-1792085229065",
+      "isArchived": true,
+      "createdAt": "2026-10-15T17:27:09.065Z",
+      "updatedAt": "2026-10-15T17:27:09.067Z"
+    },
+    {
+      "name": "Test Limited Stock Item",
+      "sku": "TST-LIM-1792085229067",
+      "category": "Makeup",
+      "purchasePrice": 100,
+      "sellingPrice": 300,
+      "stockQuantity": 2,
+      "lowStockThreshold": 1,
+      "id": "prod-1792085229067",
+      "isArchived": true,
+      "createdAt": "2026-10-15T17:27:09.067Z",
+      "updatedAt": "2026-10-15T17:27:09.068Z"
+    },
+    {
+      "name": "Test Restock Product",
+      "sku": "TST-RET-1792085229068",
+      "category": "Skincare",
+      "purchasePrice": 400,
+      "sellingPrice": 800,
+      "stockQuantity": 10,
+      "lowStockThreshold": 2,
+      "id": "prod-1792085229068",
+      "isArchived": true,
+      "createdAt": "2026-10-15T17:27:09.068Z",
+      "updatedAt": "2026-10-15T17:27:09.069Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1792085229068",
+      "orderNumber": "SB-1007",
+      "customerId": "cust-1792084367981",
+      "customerName": "Returner",
+      "customerPhone": "01888888888",
+      "customerAddress": "Sylhet",
+      "items": [
+        {
+          "productId": "prod-1792085229068",
+          "productName": "Test Restock Product",
+          "sku": "TST-RET-1792085229068",
+          "purchasePrice": 400,
+          "sellingPrice": 800,
+          "quantity": 2,
+          "subtotal": 1600
+        }
+      ],
+      "subtotal": 1600,
+      "discount": 0,
+      "deliveryCharge": 60,
+      "totalAmount": 1660,
+      "paymentStatus": "unpaid",
+      "paymentMethod": "COD",
+      "orderStatus": "confirmed",
+      "stockDeducted": true,
+      "createdAt": "2026-10-15T17:27:09.068Z",
+      "updatedAt": "2026-10-15T17:27:09.068Z"
+    },
+    {
+      "id": "ord-1792085229066",
+      "orderNumber": "SB-1006",
+      "customerId": "cust-1792084367979",
+      "customerName": "Automated Test Customer",
+      "customerPhone": "01700000000",
+      "customerAddress": "Test Lab, Dhaka",
+      "items": [
+        {
+          "productId": "prod-1792085229065",
+          "productName": "Test Test-Deduction Serum",
+          "sku": "TST-1792085229065",
+          "purchasePrice": 200,
+          "sellingPrice": 500,
+          "quantity": 3,
+          "subtotal": 1500
+        }
+      ],
+      "subtotal": 1500,
+      "discount": 0,
+      "deliveryCharge": 60,
+      "totalAmount": 1560,
+      "paymentStatus": "unpaid",
+      "paymentMethod": "COD",
+      "orderStatus": "cancelled",
+      "stockDeducted": false,
+      "createdAt": "2026-10-15T17:27:09.066Z",
+      "updatedAt": "2026-10-15T17:27:09.067Z"
+    },
+    {
+      "id": "ord-1792084367981",
+      "orderNumber": "SB-1005",
+      "customerId": "cust-1792084367981",
+      "customerName": "Returner",
+      "customerPhone": "01888888888",
+      "customerAddress": "Sylhet",
+      "items": [
+        {
+          "productId": "prod-1792084367981",
+          "productName": "Test Restock Product",
+          "sku": "TST-RET-1792084367981",
+          "purchasePrice": 400,
+          "sellingPrice": 800,
+          "quantity": 2,
+          "subtotal": 1600
+        }
+      ],
+      "subtotal": 1600,
+      "discount": 0,
+      "deliveryCharge": 60,
+      "totalAmount": 1660,
+      "paymentStatus": "unpaid",
+      "paymentMethod": "COD",
+      "orderStatus": "confirmed",
+      "stockDeducted": true,
+      "createdAt": "2026-10-15T17:12:47.981Z",
+      "updatedAt": "2026-10-15T17:12:47.981Z"
+    },
+    {
+      "id": "ord-1792084367979",
+      "orderNumber": "SB-1004",
+      "customerId": "cust-1792084367979",
+      "customerName": "Automated Test Customer",
+      "customerPhone": "01700000000",
+      "customerAddress": "Test Lab, Dhaka",
+      "items": [
+        {
+          "productId": "prod-1792084367978",
+          "productName": "Test Test-Deduction Serum",
+          "sku": "TST-1792084367978",
+          "purchasePrice": 200,
+          "sellingPrice": 500,
+          "quantity": 3,
+          "subtotal": 1500
+        }
+      ],
+      "subtotal": 1500,
+      "discount": 0,
+      "deliveryCharge": 60,
+      "totalAmount": 1560,
+      "paymentStatus": "unpaid",
+      "paymentMethod": "COD",
+      "orderStatus": "cancelled",
+      "stockDeducted": false,
+      "createdAt": "2026-10-15T17:12:47.979Z",
+      "updatedAt": "2026-10-15T17:12:47.980Z"
+    },
+    {
+      "id": "ord-101",
+      "orderNumber": "SB-1001",
+      "customerId": "cust-1",
+      "customerName": "নাজনীন আক্তার (Nazneen Akter)",
+      "customerPhone": "01712345678",
+      "customerAddress": "বাড়ি ১২, রোড ৭, ধানমন্ডি, ঢাকা",
+      "items": [
+        {
+          "productId": "prod-2",
+          "productName": "Niacinamide 10% Glow Serum",
+          "sku": "SB-SER-02",
+          "purchasePrice": 650,
+          "sellingPrice": 1250,
+          "quantity": 1,
+          "subtotal": 1250
+        },
+        {
+          "productId": "prod-1",
+          "productName": "Matte Velvet Liquid Lipstick (Ruby Red)",
+          "sku": "SB-LIP-01",
+          "purchasePrice": 350,
+          "sellingPrice": 750,
+          "quantity": 1,
+          "subtotal": 750
+        }
+      ],
+      "subtotal": 2000,
+      "discount": 100,
+      "deliveryCharge": 60,
+      "totalAmount": 1960,
+      "paymentStatus": "paid",
+      "paymentMethod": "bKash",
+      "orderStatus": "delivered",
+      "stockDeducted": true,
+      "notes": "Gift wrapping requested.",
+      "createdAt": "2026-10-12T11:30:00.000Z",
+      "updatedAt": "2026-10-13T16:00:00.000Z"
+    },
+    {
+      "id": "ord-102",
+      "orderNumber": "SB-1002",
+      "customerId": "cust-2",
+      "customerName": "ফারহানা ইসলাম (Farhana Islam)",
+      "customerPhone": "01898765432",
+      "customerAddress": "প্লট ৪৫, ও আর নিজাম রোড, জিইসি, চট্টগ্রাম",
+      "items": [
+        {
+          "productId": "prod-5",
+          "productName": "Pure Moroccan Argan Hair Treatment Oil",
+          "sku": "SB-HAIR-05",
+          "purchasePrice": 850,
+          "sellingPrice": 1650,
+          "quantity": 1,
+          "subtotal": 1650
+        }
+      ],
+      "subtotal": 1650,
+      "discount": 0,
+      "deliveryCharge": 120,
+      "totalAmount": 1770,
+      "paymentStatus": "paid",
+      "paymentMethod": "COD",
+      "orderStatus": "shipped",
+      "stockDeducted": true,
+      "notes": "Steadfast courier tracking #SF-88392",
+      "createdAt": "2026-10-14T10:15:00.000Z",
+      "updatedAt": "2026-10-14T14:00:00.000Z"
+    },
+    {
+      "id": "ord-103",
+      "orderNumber": "SB-1003",
+      "customerId": "cust-3",
+      "customerName": "সুমাইয়া রহমান (Sumaiya Rahman)",
+      "customerPhone": "01911223344",
+      "customerAddress": "হাউজ ২১, সেক্টর ৪, উত্তরা, ঢাকা",
+      "items": [
+        {
+          "productId": "prod-4",
+          "productName": "Hyaluronic Acid Deep Hydrating Moisturizer",
+          "sku": "SB-CRM-04",
+          "purchasePrice": 520,
+          "sellingPrice": 1050,
+          "quantity": 1,
+          "subtotal": 1050
+        },
+        {
+          "productId": "prod-3",
+          "productName": "Waterproof Precision Gel Eyeliner",
+          "sku": "SB-EYE-03",
+          "purchasePrice": 180,
+          "sellingPrice": 450,
+          "quantity": 1,
+          "subtotal": 450
+        }
+      ],
+      "subtotal": 1500,
+      "discount": 50,
+      "deliveryCharge": 60,
+      "totalAmount": 1510,
+      "paymentStatus": "unpaid",
+      "paymentMethod": "COD",
+      "orderStatus": "pending",
+      "stockDeducted": false,
+      "notes": "Customer called to confirm afternoon delivery.",
+      "createdAt": "2026-10-15T08:30:00.000Z",
+      "updatedAt": "2026-10-15T08:30:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1",
+      "name": "নাজনীন আক্তার (Nazneen Akter)",
+      "phone": "01712345678",
+      "email": "nazneen.bd@example.com",
+      "address": "বাড়ি ১২, রোড ৭, ধানমন্ডি",
+      "city": "ঢাকা (Dhaka)",
+      "totalOrders": 3,
+      "totalSpent": 4200,
+      "notes": "Regular customer for Skincare items. Prefers bKash payment.",
+      "createdAt": "2026-09-02T10:00:00.000Z",
+      "updatedAt": "2026-10-10T12:00:00.000Z"
+    },
+    {
+      "id": "cust-2",
+      "name": "ফারহানা ইসলাম (Farhana Islam)",
+      "phone": "01898765432",
+      "email": "farhana.beauty@example.com",
+      "address": "প্লট ৪৫, ও আর নিজাম রোড, জিইসি",
+      "city": "চট্টগ্রাম (Chattogram)",
+      "totalOrders": 2,
+      "totalSpent": 2950,
+      "notes": "Makeup lover, likes Ruby Red lipstick.",
+      "createdAt": "2026-09-10T11:00:00.000Z",
+      "updatedAt": "2026-10-12T15:00:00.000Z"
+    },
+    {
+      "id": "cust-3",
+      "name": "সুমাইয়া রহমান (Sumaiya Rahman)",
+      "phone": "01911223344",
+      "email": "sumaiya.r@example.com",
+      "address": "হাউজ ২১, সেক্টর ৪, উত্তরা",
+      "city": "ঢাকা (Dhaka)",
+      "totalOrders": 1,
+      "totalSpent": 1310,
+      "notes": "Requested urgent courier delivery.",
+      "createdAt": "2026-10-05T09:00:00.000Z",
+      "updatedAt": "2026-10-14T18:00:00.000Z"
+    },
+    {
+      "id": "cust-1792084367979",
+      "name": "Automated Test Customer",
+      "phone": "01700000000",
+      "address": "Test Lab, Dhaka",
+      "city": "Dhaka",
+      "totalOrders": 2,
+      "totalSpent": 3120,
+      "createdAt": "2026-10-15T17:12:47.979Z",
+      "updatedAt": "2026-10-15T17:27:09.066Z"
+    },
+    {
+      "id": "cust-1792084367981",
+      "name": "Returner",
+      "phone": "01888888888",
+      "address": "Sylhet",
+      "city": "Dhaka",
+      "totalOrders": 2,
+      "totalSpent": 3320,
+      "createdAt": "2026-10-15T17:12:47.981Z",
+      "updatedAt": "2026-10-15T17:27:09.068Z"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "sup-1",
+      "name": "CosmoCraft Essentials Ltd.",
+      "company": "CosmoCraft Imports BD",
+      "phone": "01700112233",
+      "email": "supply@cosmocraftbd.com",
+      "address": "Tejgaon Industrial Area, Dhaka",
+      "productsSupplied": [
+        "Niacinamide 10% Glow Serum",
+        "Hyaluronic Acid Deep Hydrating Moisturizer"
+      ],
+      "totalPurchases": 45000,
+      "status": "active",
+      "createdAt": "2026-08-15T10:00:00.000Z"
+    },
+    {
+      "id": "sup-2",
+      "name": "Glamour Direct Dubai Traders",
+      "company": "Glamour Direct FZE",
+      "phone": "01988776655",
+      "email": "orders@glamourdirect.ae",
+      "address": "Gulshan 2, Dhaka",
+      "productsSupplied": [
+        "Pure Moroccan Argan Hair Treatment Oil",
+        "Matte Velvet Liquid Lipstick"
+      ],
+      "totalPurchases": 78000,
+      "status": "active",
+      "createdAt": "2026-08-20T10:00:00.000Z"
+    }
+  ],
+  "returns": [
+    {
+      "id": "ret-1792085229069",
+      "returnNumber": "RET-1003",
+      "orderId": "ord-1792085229068",
+      "orderNumber": "SB-1007",
+      "customerName": "Returner",
+      "customerPhone": "01888888888",
+      "items": [
+        {
+          "productId": "prod-1792085229068",
+          "productName": "Test Restock Product",
+          "quantity": 2,
+          "refundAmount": 1600,
+          "condition": "unopened"
+        }
+      ],
+      "totalRefundAmount": 1600,
+      "reason": "Customer requested return in sealed condition",
+      "status": "approved",
+      "isRestocked": true,
+      "createdAt": "2026-10-15T17:27:09.069Z",
+      "updatedAt": "2026-10-15T17:27:09.069Z"
+    },
+    {
+      "id": "ret-1792084367981",
+      "returnNumber": "RET-1002",
+      "orderId": "ord-1792084367981",
+      "orderNumber": "SB-1005",
+      "customerName": "Returner",
+      "customerPhone": "01888888888",
+      "items": [
+        {
+          "productId": "prod-1792084367981",
+          "productName": "Test Restock Product",
+          "quantity": 2,
+          "refundAmount": 1600,
+          "condition": "unopened"
+        }
+      ],
+      "totalRefundAmount": 1600,
+      "reason": "Customer requested return in sealed condition",
+      "status": "approved",
+      "isRestocked": true,
+      "createdAt": "2026-10-15T17:12:47.981Z",
+      "updatedAt": "2026-10-15T17:12:47.982Z"
+    },
+    {
+      "id": "ret-1",
+      "returnNumber": "RET-1001",
+      "orderId": "ord-101",
+      "orderNumber": "SB-1001",
+      "customerName": "নাজনীন আক্তার (Nazneen Akter)",
+      "customerPhone": "01712345678",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Matte Velvet Liquid Lipstick (Ruby Red)",
+          "quantity": 1,
+          "refundAmount": 750,
+          "condition": "unopened"
+        }
+      ],
+      "totalRefundAmount": 750,
+      "reason": "Customer ordered wrong shade by mistake (wanted Nude Pink). Product sealed in original package.",
+      "status": "pending",
+      "isRestocked": false,
+      "createdAt": "2026-10-14T11:00:00.000Z",
+      "updatedAt": "2026-10-14T11:00:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk-1",
+      "title": "আজকের পেন্ডিং ৩টি অর্ডার কুরিয়ারে বুকিং দিন",
+      "description": "উত্তরা ও ধানমন্ডির কাস্টমারদের সাথে ফোন করে কনফার্ম করুন",
+      "category": "business",
+      "priority": "high",
+      "dueDate": "2026-10-15",
+      "isCompleted": false,
+      "createdAt": "2026-10-15T07:30:00.000Z"
+    },
+    {
+      "id": "tsk-2",
+      "title": "মরোক্কান আরগান হেয়ার অয়েল স্টক শেষ হচ্ছে - সাপ্লায়ারকে রিস্টক অর্ডার দিন",
+      "description": "স্টকে মাত্র ৪টি আছে, নতুন ৫০টি ইউনিট প্রয়োজন",
+      "category": "inventory",
+      "priority": "high",
+      "dueDate": "2026-10-16",
+      "isCompleted": false,
+      "createdAt": "2026-10-14T15:00:00.000Z"
+    },
+    {
+      "id": "tsk-3",
+      "title": "ফেসবুক পেজে পূজা/উৎসবে ১০% ডিসকাউন্ট ক্যাম্পেইন পোস্ট",
+      "description": "নায়াসিনামাইড সিরাম ও লিপস্টিক বান্ডেল অফার",
+      "category": "business",
+      "priority": "medium",
+      "dueDate": "2026-10-17",
+      "isCompleted": false,
+      "createdAt": "2026-10-14T16:00:00.000Z"
+    },
+    {
+      "id": "tsk-4",
+      "title": "মাসিক সেলস ও প্রফিট লেজার আপডেট সম্পন্ন",
+      "description": "গত সপ্তাহের কুরিয়ার ক্যাশ কালেকশন ভেরিফিকেশন",
+      "category": "business",
+      "priority": "low",
+      "dueDate": "2026-10-14",
+      "isCompleted": true,
+      "createdAt": "2026-10-13T10:00:00.000Z",
+      "completedAt": "2026-10-14T18:00:00.000Z"
+    }
+  ],
+  "channels": [
+    {
+      "id": "facebook",
+      "name": "Facebook Messenger & Page Shop",
+      "icon": "MessageCircle",
+      "status": "not_connected",
+      "requiredCredentials": [
+        "Meta Graph API Page Access Token (EAA...)",
+        "Facebook Page ID (e.g. 1029384756)",
+        "Meta App Secret for Webhook Signature Verification",
+        "Webhook Callback URL with Verify Token"
+      ],
+      "notes": "Enables automatic customer inquiry intake, instant inventory reply, and direct order placement."
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp Business Cloud API",
+      "icon": "PhoneCall",
+      "status": "not_connected",
+      "requiredCredentials": [
+        "Meta WhatsApp Business Account ID (WABA)",
+        "Permanent System User Access Token",
+        "Verified Phone Number ID",
+        "Webhook Event Subscription (messages, message_deliveries)"
+      ],
+      "notes": "Allows sending automated order confirmation receipts and tracking links directly to customer WhatsApp."
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok Shop Partner API",
+      "icon": "Video",
+      "status": "not_connected",
+      "requiredCredentials": [
+        "TikTok Shop App Key & App Secret",
+        "Authorized Seller Shop ID / Cipher",
+        "Authorized Scope (order.read, product.write)",
+        "Webhook Notification Endpoint"
+      ],
+      "notes": "Syncs products and streams live-order sales into SAMIHA AI order dashboard."
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "channel": "facebook",
+      "senderName": "সাদিয়া জাহান (Sadia)",
+      "senderContact": "FB: sadia.jahan.beauty",
+      "messageText": "আপু, নায়াসিনামাইড সিরাম কি অয়েলি স্কিনের জন্য ভালো হবে? ডেলিভারি কতদিন লাগে?",
+      "timestamp": "2026-10-15T09:20:00.000Z",
+      "isReplied": false
+    },
+    {
+      "id": "msg-2",
+      "channel": "whatsapp",
+      "senderName": "রুমানা আহমেদ (Rumana)",
+      "senderContact": "+8801755112233",
+      "messageText": "আমার অর্ডার SB-1002 এর ট্র্যাকিং কোডটা একটু দিবেন প্লিজ?",
+      "timestamp": "2026-10-15T08:50:00.000Z",
+      "isReplied": true,
+      "orderIdRef": "ord-102"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix SAMIHA AI – Personal Assistant \u0026 Business Manager",
+  "description": "Unified personal AI assistant and complete beauty-business management system for SAMIHA BEAUTY SHOP with bilingual Bengali/English support, inventory, orders, customer records, and sales analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
